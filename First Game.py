@@ -32,7 +32,7 @@ line.shape("square")
 line.color("black")
 line.shapesize(stretch_wid = 1, stretch_len=0.25)
 line.penup()
-line.goto(0,300)
+line.goto(0,298)
 
 line = turtle.Turtle()
 line.shape("square")
@@ -153,6 +153,35 @@ line.shapesize(stretch_wid = 1, stretch_len=0.25)
 line.penup()
 line.goto(0,-295)
 
+#Outer Lines    
+line = turtle.Turtle()
+line.shape("square")
+line.color("black")
+line.shapesize(stretch_wid = 1, stretch_len=40)
+line.penup()
+line.goto(0,300)
+
+line = turtle.Turtle()
+line.shape("square")
+line.color("black")
+line.shapesize(stretch_wid = 30, stretch_len=1)
+line.penup()
+line.goto(-400,0)
+
+line = turtle.Turtle()
+line.shape("square")
+line.color("black")
+line.shapesize(stretch_wid = 1, stretch_len=40)
+line.penup()
+line.goto(0,-292)
+
+line = turtle.Turtle()
+line.shape("square")
+line.color("black")
+line.shapesize(stretch_wid = 30, stretch_len=1)
+line.penup()
+line.goto(392,0)
+
 # Ball
 ball = turtle.Turtle()
 ball.speed(0)
@@ -170,7 +199,7 @@ pen.shape("square")
 pen.color("black")
 pen.penup()
 pen.hideturtle()
-pen.goto(0,260)
+pen.goto(0,245)
 pen.write("Player A: 0                           Player B: 0", align="center", font=("Corier", 24, "normal"))
 
 #Score
